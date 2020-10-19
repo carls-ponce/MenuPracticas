@@ -1,0 +1,32 @@
+
+body {
+  background-color: #2d3436;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #dbdedf;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 2rem;
+  color: #f6e58d;
+}
+
+p.intro {
+  color: #c07c44;
+}
+
+summary {
+  font-size: 4rem;
+}
+
+span.par {
+  background-color: #f6e58d;
+}
+
+span.impar {
+  background-color: #0984e3;
+}

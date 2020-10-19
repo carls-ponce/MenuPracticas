@@ -1,0 +1,79 @@
+/*La regla CSS @font-face permite definir una tipografía e importarla para 
+su uso en una página web.
+
+Ejemplo:
+@font-face{
+    font-family:<nombre_de_la_fuente>;
+    src: url(<ruta_url>) [format()][,url(<ruta_url>) [format()]]*;
+    [font-weight:<weight>];
+    [font-style:<estilo>];
+    [font-stretch]:<stretch>];
+    [unicode-range]:<range>];
+}
+*/
+*{
+  margin: 30px;
+}
+@font-face {
+    font-family: "Ribeye Marrow";
+    src: url("ribeye-marrow.woff2");
+  }
+  
+  @font-face {
+    font-family: "Just Another Hand";
+    src: url("just-another-hand.woff2");
+  }
+  
+  @font-face {
+    font-family: "Lobster";
+    src: url("lobster.woff2");
+  }
+  
+  body {
+    background-color: #74b9ff;
+  }
+  
+  h1 {
+    font-family: "Ribeye Marrow", cursive;
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #fdcb6e;
+  }
+  
+  p.intro {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: sans-serif;
+    line-height: 200%;
+    text-align: justify;
+    background-color: #fdcb6e;
+    padding: 25px;
+    border-radius: 10px;
+  }
+  
+  p.latin {
+    margin: 10px;
+    font-family: "Lobster", sans-serif;
+    font-size: 2.5rem;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #55efc4;
+  }
+  
+  p.espanol {
+    margin: 0 0 3rem;
+    color: white;
+    font-family: "Just Another Hand", sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    text-align: right;
+    background-color: #00b894;
+    margin-left: 38%;
+    border-radius: 10px;
+  }
+  
+  cite {
+    text-decoration: underline;
+  }

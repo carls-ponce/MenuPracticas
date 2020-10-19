@@ -1,0 +1,108 @@
+@font-face {
+    font-family: SecularOne-Regular;
+    src: url(assests\Secular_One\SecularOne-Regular.ttf); 
+}
+body {
+    background-color:#2C3A47;
+    font-family: sans-serif;
+    text-align: justify;
+}
+img {
+    margin: 0;
+}
+
+h1 {
+    color: #ecf0f1;
+    font-size: 250%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "SecularOne-Regular";
+}
+h2.datos{
+    text-align: center;
+    background-color: #00b894;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+
+}
+
+h2.formacion{
+    text-align: center;
+    background-color: #ff7675;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+h2.aptitudes{
+    text-align: center;
+    text-shadow: #2c3e50 7px;
+    background-color: #e1b12c;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+h2 {
+    background-color: #2980b9;
+    color:#ecf0f1;
+    font-size: 200%;
+    text-decoration: underline;
+}
+
+
+h3 {
+    text-align: center;
+    background-color: hsl(200, 15%, 65%);
+    color: hsl(0, 0%, 100%);
+    font-size: 200%;
+    /*font-style: italic;*/
+    
+}
+#informacion{
+    text-align: justify;
+    background-color: #273c75;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+h3.idiomas{
+    text-shadow: #2c3e50 7px;
+    background-color: #22a6b3;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+
+p {
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #f5f6fa;
+}
+
+em {
+    color: hsl(200, 100%, 40%);
+    font-style: normal;
+    font-weight: bold;
+}
+
+strong {
+    color: #e1b12c;
+    font-weight: normal;
+}
+
+address {
+    color: white;
+    font-weight: bold;
+    text-align: right;
+}

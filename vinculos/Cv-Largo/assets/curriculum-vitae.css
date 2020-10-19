@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+body {
+    background-color: #2d3436;
+    font-family: sans-serif;
+    text-align: justify;
+}
+a {
+    text-decoration: none;
+    padding: 2px 1px 0;
+    outline: none;
+}
+strong.home{
+    margin: 5%;
+    border-radius: 29%;
+    padding: 1%;
+    
+}
+a:link {
+    color: #ffffff;
+  }
+img {
+
+    margin: 0;
+}
+a:focus {
+    border-bottom: 1px solid;
+  }
+  a:visited {
+    color: #ced6e0;
+  }
+  a:hover {
+    border-bottom: 1px solid;     
+    background: #ff4757;
+  }
+  a:active {
+    background: #3742fa;
+    color: #CDFEAA;
+  }
+p{
+    color: white;
+    margin-left: 3%;
+}
+
+h1 {
+    color: #e1b12c;
+    font-size: 250%;
+    font-family: 'Acme', sans-serif;;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 200%;
+    
+}
+
+h3 {
+    background-color: hsl(200, 15%, 65%);
+    color: hsl(278, 75%, 29%);
+    font-size: 130%;
+    font-style: italic;
+}
+h2.datos{
+    text-align: left;
+    color:#00a8ff ;
+    margin-left: 3%;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+#informacion{
+    text-align: justify;
+    background-color:#192a56;
+    color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+h2.experiencia{
+    text-align: left;
+    color: #44bd32;
+    margin-left: 3%;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+h2.formacion{
+    text-align: left;
+    color: #f0932b;
+    margin-left: 3%;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+h2.aptitudes{
+    text-align: left;
+    color: #22a6b3;
+    margin-left: 3%;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+h2.adicional{
+    text-align: left;
+    color: #eb4d4b;
+    margin-left: 3%;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+
+#capacidades{
+    text-align: left;
+    color: #ffffff;
+    background-color:#192a56;
+    margin-left: 2%;
+    margin-right: 60%;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+}
+
+#inicio{
+    color: #eb4d4b;
+    text-align: center;
+}
+
+em {
+    color: #e1b12c;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+
+strong {
+    color: #e1b12c;
+    font-weight: normal;
+}
+address {
+    background-color: #192a56;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+}

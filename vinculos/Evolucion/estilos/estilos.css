@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    color: aliceblue;
+    text-align: justify;
+}
+body{
+    font-family: sans-serif;
+    cursor: url("mouse-pointer.png"), auto;
+    background-color: #fdcb6e;
+    
+}
+#referencias a {
+    float: left;
+    text-decoration: none;
+}
+table{
+    margin: 21px;
+    background-color: #2D3447;
+    box-shadow: 2px 2px 29px black;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4rem;
+    margin: 20px;
+    text-align: center;
+   color: #343C51;
+}
+#estilo th{
+    background-color: #21252B;
+    color: white;
+}
+#estilo td{
+    font-size: 19px;
+    color: white;
+}
+#estilo tr, #estilo td{
+    padding: 1.5%;
+}
+#estilo th{
+    padding: 21px;
+}
+#estilo tr:nth-child(even){
+    background-color: #343C51;
+}
+#estilo tr:hover{
+    animation: shadow-pulse 1500ms 10;
+ 
+  color: #434343;
+}
+#estilo tr:hover::before{
+    left: 520px;
+}
+
+@keyframes shadow-pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(197, 91, 20, 0.6);
+    }
+    100% {
+      box-shadow: 0 0 20px 16px rgba(32, 226, 215, 0);
+    } }
+    
+#estilo th{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        
+}
+img{
+    transition: transform .5s;
+    cursor: url("clicking.png"), auto;
+}
+img:hover{
+    transform: scale(1.5);
+}
